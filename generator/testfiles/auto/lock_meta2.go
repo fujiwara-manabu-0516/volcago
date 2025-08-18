@@ -1,6 +1,6 @@
 package model
 
-import "github.com/go-generalize/volcago/generator/testfiles/auto/meta"
+import "github.com/fujiwara-manabu-0516/volcago/generator/testfiles/auto/meta"
 
 //go:generate volcago LockMeta2
 

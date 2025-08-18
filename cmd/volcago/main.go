@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-generalize/volcago/generator"
+	"github.com/fujiwara-manabu-0516/volcago/generator"
 )
 
 var (

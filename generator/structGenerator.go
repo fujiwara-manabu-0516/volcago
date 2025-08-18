@@ -8,10 +8,10 @@ import (
 	"text/template"
 
 	"github.com/fatih/structtag"
+	"github.com/fujiwara-manabu-0516/volcago/pkg/fsutil"
+	"github.com/fujiwara-manabu-0516/volcago/pkg/gocodegen"
+	"github.com/fujiwara-manabu-0516/volcago/pkg/sliceutil"
 	"github.com/go-generalize/go-easyparser/types"
-	"github.com/go-generalize/volcago/pkg/fsutil"
-	"github.com/go-generalize/volcago/pkg/gocodegen"
-	"github.com/go-generalize/volcago/pkg/sliceutil"
 	"github.com/go-utils/gopackages"
 	"github.com/iancoleman/strcase"
 	"golang.org/x/xerrors"

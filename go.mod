@@ -1,8 +1,6 @@
-module github.com/go-generalize/volcago
+module github.com/fujiwara-manabu-0516/volcago
 
 go 1.24
-
-replace github.com/go-generalize/volcago => github.com/fujiwara-manabu-0516/volcago v0.0.0-00010101000000-000000000000
 
 require (
 	cloud.google.com/go/firestore v1.16.0

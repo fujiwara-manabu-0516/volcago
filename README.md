@@ -8,7 +8,7 @@ Automatically generate code used by Cloud Firestore.
 Recommend that you drop the binary from the release and use it.  
 Also, possible with `go install` ↓
 ```console
-$ go install github.com/go-generalize/volcago/cmd/volcago@latest
+$ go install github.com/fujiwara-manabu-0516/volcago/cmd/volcago@latest
 ```
 
 # Usage
