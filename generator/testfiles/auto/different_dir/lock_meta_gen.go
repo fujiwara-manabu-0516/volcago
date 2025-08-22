@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	model "github.com/go-generalize/volcago/generator/testfiles/auto"
+	model "github.com/fujiwara-manabu-0516/volcago/generator/testfiles/auto"
 )
 
 //go:generate mockgen -source $GOFILE -destination mock/mock_lock_meta_gen/mock_lock_meta_gen.go

@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	model "github.com/go-generalize/volcago/examples"
+	model "github.com/fujiwara-manabu-0516/volcago/examples"
 )
 
 //go:generate ../../bin/mockgen -source $GOFILE -destination mock/lock_gen.go

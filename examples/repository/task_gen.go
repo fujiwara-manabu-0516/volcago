@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	model "github.com/go-generalize/volcago/examples"
+	model "github.com/fujiwara-manabu-0516/volcago/examples"
 )
 
 //go:generate mockgen -source $GOFILE -destination mock/mock_task_gen/mock_task_gen.go
