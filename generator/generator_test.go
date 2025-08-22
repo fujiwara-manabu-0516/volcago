@@ -52,3 +52,19 @@ func TestGenerator(t *testing.T) {
 		run(t, "SubTask", true)
 	})
 }
+
+func TestGenerator2(t *testing.T) {
+	root, err := os.Getwd()
+
+	if err != nil {
+		t.Fatalf("failed to getwd: %+v", err)
+	}
+
+	t.Run("AutomaticIDGeneration", func(tr *testing.T) {
+		if err := os.Chdir(filepath.Join(root, "testfiles/auto2")); err != nil {
+			tr.Fatalf("chdir failed: %+v", err)
+		}
+
+		run(t, "HttpStatus", false)
+	})
+}
