@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/firestore"
-	model "github.com/go-generalize/volcago/generator/testfiles/auto"
+	model "github.com/fujiwara-manabu-0516/volcago/generator/testfiles/auto"
 	"golang.org/x/xerrors"
 )
 

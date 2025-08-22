@@ -1,4 +1,4 @@
-module github.com/go-generalize/volcago
+module github.com/fujiwara-manabu-0516/volcago
 
 go 1.24
 

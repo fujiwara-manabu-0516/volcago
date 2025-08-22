@@ -14,7 +14,7 @@ import (
 	reflect "reflect"
 
 	firestore "cloud.google.com/go/firestore"
-	model "github.com/go-generalize/volcago/generator/testfiles/not_auto"
+	model "github.com/fujiwara-manabu-0516/volcago/generator/testfiles/not_auto"
 	gomock "go.uber.org/mock/gomock"
 )
 
