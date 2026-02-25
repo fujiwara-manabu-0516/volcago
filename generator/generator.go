@@ -20,12 +20,10 @@ func NewGenerator(dir string) (*Generator, error) {
 	psr, err := easyparser.NewParser(dir, func(fo *easyparser.FilterOpt) bool {
 		return fo.BasePackage
 	})
-
-	psr.IgnoreOmittedJSONField = true
-
 	if err != nil {
 		return nil, xerrors.Errorf("failed to initialize parser: %w", err)
 	}
+	psr.IgnoreOmittedJSONField = true
 	psr.Replacer = replacer
 
 	types, err := psr.Parse()
