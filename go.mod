@@ -1,6 +1,6 @@
 module github.com/fujiwara-manabu-0516/volcago
 
-go 1.24
+go 1.25
 
 require (
 	cloud.google.com/go/firestore v1.16.0
